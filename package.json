@@ -1,0 +1,32 @@
+{
+  "name": "uvue-next-starter",
+  "version": "1.0.0",
+  "description": "UVue starter template",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "uvue dev",
+    "build": "uvue build",
+    "start": "uvue start"
+  },
+  "dependencies": {
+    "@uvue/core": "^1.0.0-0",
+    "@uvue/service": "^1.0.0-alpha.1",
+    "vue": "^3.0.0-0",
+    "vue-router": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "@vue/cli-plugin-babel": "^4.5.4",
+    "@vue/cli-plugin-typescript": "^4.5.4",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "prettier": "^1.19.1",
+    "typescript": "^4.0.2"
+  }
+}
