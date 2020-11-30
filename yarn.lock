@@ -1170,8 +1170,8 @@
 
 "@uvue/core@^1.0.0-0":
   version "1.0.0-alpha.1"
-  resolved "http://localhost:4873/@uvue%2fcore/-/core-1.0.0-alpha.1.tgz#1187f871dc23341411527d29c36ceab6cc94ad81"
-  integrity sha512-t7s+bmiBL/tSa3Kaiaa0Kjmosf9E6D63ys/NNr+kQRBpm7vMLfRIAg2+JlJug7eD+DVUExFVznZyhWYiUBvQmQ==
+  resolved "https://registry.yarnpkg.com/@uvue/core/-/core-1.0.0-alpha.1.tgz#0c33a49b6b502c40d1edb138e0b3c29b4a4f6546"
+  integrity sha512-pavNZrH+JNiyq87qmeQQsoIHATWOkQP3lHGDxdZ6eSWAsU0kZ478/8rPjr43KRIBX+C6qMOGwZoc1xEUC/caSw==
   dependencies:
     hash-sum "^2.0.0"
     vue "^3.0.0-0"
@@ -1179,8 +1179,8 @@
 
 "@uvue/service@^1.0.0-alpha.1":
   version "1.0.0-alpha.1"
-  resolved "http://localhost:4873/@uvue%2fservice/-/service-1.0.0-alpha.1.tgz#bba1d66d8192d8d8ce2dac38f913abb02c862a10"
-  integrity sha512-aAlAS1JSG5JPYVny18yTbQrJ/KqqeBt+U0x3cTlyYPOnVc823Hlyg5ESgsutI7LK6iz5iGFcb5n4fZABtAKaFg==
+  resolved "https://registry.yarnpkg.com/@uvue/service/-/service-1.0.0-alpha.1.tgz#aff42f172dd2c6483029e53c9122f25b175d3edf"
+  integrity sha512-BKuiUzCwm1Jt56sLj+yS+QrmjcLshwpL51uKE5gtDjgXmQ5GGJqbIHCzXepa+SLokU++lRkAJr3asw6Q+J5LZw==
   dependencies:
     "@nuxtjs/youch" "^4.2.3"
     "@vue/cli-service" "^4.2.3"
@@ -2638,9 +2638,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001157:
-  version "1.0.30001161"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001161.tgz#64f7ffe79ee780b8c92843ff34feb36cea4651e0"
-  integrity sha512-JharrCDxOqPLBULF9/SPa6yMcBRTjZARJ6sc3cuKrPfyIk64JN6kuMINWqA99Xc8uElMFcROliwtz0n9pYej+g==
+  version "1.0.30001163"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001163.tgz#7595ae1b430fb4ad6adcd4f0a3d705efad9dc379"
+  integrity sha512-QQbOGkHWnvhn3Dlf4scPlXTZVhGOK+2qCOP5gPxqzXHhtn3tZHwNdH9qNcQRWN0f3tDYrsyXFJCFiP/GLzI5Vg==
 
 case-sensitive-paths-webpack-plugin@^2.3.0:
   version "2.3.0"
@@ -3802,9 +3802,9 @@ ejs@^2.6.1:
   integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
 electron-to-chromium@^1.3.591:
-  version "1.3.610"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.610.tgz#1254eb394acd220a836ea1f203f8cded4e487052"
-  integrity sha512-eFDC+yVQpEhtlapk4CYDPfV9ajF9cEof5TBcO49L1ETO+aYogrKWDmYpZyxBScMNe8Bo/gJamH4amQ4yyvXg4g==
+  version "1.3.611"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.611.tgz#43a25c07ae05f9555335908abc46c89898f5afb7"
+  integrity sha512-YhqTzCXtEO2h0foGLGS60ortd6yY/yUQhqDEp1VWG3DIyHvckFFyaRwR41M0/M3m7Yb8Exqh+nzyb2TuxaoMTw==
 
 elliptic@^6.5.3:
   version "6.5.3"
@@ -3941,20 +3941,15 @@ es-to-primitive@^1.2.1:
     is-symbol "^1.0.2"
 
 esbuild-loader@^2.2.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/esbuild-loader/-/esbuild-loader-2.4.0.tgz#23f8f9bb6f8faface1be470ab5c6217c6de24614"
-  integrity sha512-qeRn/w4Gg2odTshSTaJ2usEqrfvncv8/vJ4z5wTrYla3Vqsj/lbVEw4fhwUtdrYLkXhhj1T2jR8Tz7SaARt/Ig==
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/esbuild-loader/-/esbuild-loader-2.5.0.tgz#00cdbfa29de11fda5ddceda3e0ec161f1d96d815"
+  integrity sha512-gkwoKIkHvlISzsIBDch8nYlAvb39FJAUf3nuDFEIWIjNLn+RBIiZo7nMKRPRtZuUOk8Rx+kb7PbAAPhRUHvRvA==
   dependencies:
-    esbuild "^0.7.3"
+    esbuild "^0.8.17"
     loader-utils "^2.0.0"
-    webpack-sources "^2.0.0"
+    webpack-sources "^2.2.0"
 
-esbuild@^0.7.3:
-  version "0.7.22"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.7.22.tgz#9149b903f8128b7c45a754046c24199d76bbe08e"
-  integrity sha512-B43SYg8LGWYTCv9Gs0RnuLNwjzpuWOoCaZHTWEDEf5AfrnuDMerPVMdCEu7xOdhFvQ+UqfP2MGU9lxEy0JzccA==
-
-esbuild@^0.8.5:
+esbuild@^0.8.17, esbuild@^0.8.5:
   version "0.8.17"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.17.tgz#1c16c6d5988dcfdcf27a7e1612b7fd05e1477c54"
   integrity sha512-ReHap+Iyn5BQF0B8F3xrLwu+j57ri5uDUw2ej9XTPAuFDebYiWwRzBY4jhF610bklveXLbCGim/8/2wQKQlu1w==
@@ -9665,9 +9660,9 @@ vue-hot-reload-api@^2.3.0:
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
 "vue-loader-v16@npm:vue-loader@^16.0.0-beta.7", vue-loader@^16.0.0-0:
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-16.0.0.tgz#7ec137c7f9029f2a5990f39dc5abbca06d60ba30"
-  integrity sha512-R20f4PWe34dqhTZ9tkyFd6nfjxEbLBHbFOsN38qg0Jl8GKMfmoyc/E8vVjjRkunE6qCydpPoH7f/tW13bD6+JA==
+  version "16.1.0"
+  resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-16.1.0.tgz#e4544abf65cbb3b81f3d5360d95a3e2ae83749a1"
+  integrity sha512-fTtCdI7VeyNK0HP4q4y9Z9ts8TUeaF+2/FjKx8CJ/7/Oem1rCX7zIJe+d+jLrVnVNQjENd3gqmANraLcdRWwnQ==
   dependencies:
     chalk "^4.1.0"
     hash-sum "^2.0.0"
@@ -9685,9 +9680,9 @@ vue-loader@^15.9.2:
     vue-style-loader "^4.1.0"
 
 vue-router@^4.0.0-0:
-  version "4.0.0-rc.5"
-  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.0-rc.5.tgz#191d32e3d5276641ff21e881d34e33a71dc6e8f0"
-  integrity sha512-Q8Tt6VGwGMN5qASeIdjSydU3uRADK9AUkqnbnzmTz+zZKS0W6GZOAuP235lf3y5/MqEFSKRJGaTWPEY0t+Rjmg==
+  version "4.0.0-rc.6"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.0-rc.6.tgz#8fa9e2d612c28ccf9b2bfa9421052932808ce24b"
+  integrity sha512-hVHC8A4/0yku1Z6+oUtX9odeHv78XwDI7putt1hd7os27P7mLabkjArN7f3TI3e/cz17MxAUz5Yp+m8ZE3sPsw==
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.2"
@@ -9858,7 +9853,7 @@ webpack-sources@^1.1.0, webpack-sources@^1.4.0, webpack-sources@^1.4.1, webpack-
     source-list-map "^2.0.0"
     source-map "~0.6.1"
 
-webpack-sources@^2.0.0:
+webpack-sources@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-2.2.0.tgz#058926f39e3d443193b6c31547229806ffd02bac"
   integrity sha512-bQsA24JLwcnWGArOKUxYKhX3Mz/nK1Xf6hxullKERyktjNMC4x8koOeaDNTA2fEJ09BdWLbM/iTW0ithREUP0w==
